@@ -1,0 +1,20 @@
+# Dependencias y compilación
+node_modules/
+dist/
+build/
+
+# Datos sensibles y variables de entorno
+.env
+.env.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
