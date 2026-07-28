@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background: #EEFABD;
+    border-bottom: 0.5px solid #6984A9;
+}
+
+.title {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin: 0;
+    padding: 0.5rem;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    color: #263B6A;
+}
+
+
+/* media queries*/
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+}
