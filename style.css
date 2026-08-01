@@ -1,9 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 250, 189, 0.2);
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     background: #EEFABD;
     border-bottom: 0.5px solid #6984A9;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color: #263B6A;
+    width: 100%;
 }
 
 .title {
