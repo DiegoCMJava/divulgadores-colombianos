@@ -17,6 +17,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 10px;
 }
 
 footer {
@@ -33,7 +34,12 @@ footer {
     word-break: break-word;
     color: #263B6A;
 }
-
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
 /* media queries*/
 
